@@ -142,8 +142,8 @@ main, .footer { margin-left: 300px; }
 .portfolio-filters li { cursor: pointer; display: inline-block; padding: 8px 20px 10px; margin: 0 4px 10px; font-size: 15px; font-weight: 500; border-radius: 50px; font-family: var(--heading-font); transition: .3s; }
 .portfolio-filters li:hover, .portfolio-filters li.filter-active { color: var(--contrast-color); background-color: var(--accent-color); }
 .portfolio-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-.portfolio-item { position: relative; overflow: hidden; aspect-ratio: 4 / 3; background: var(--surface-color); animation: up .5s ease; }
-.portfolio-item img { width: 100%; height: 100%; object-fit: cover; transition: .3s; display: block; }
+.portfolio-item { position: relative; overflow: hidden; aspect-ratio: 16 / 9; background: var(--surface-color); animation: up .5s ease; }
+.portfolio-item img { width: 100%; height: 100%; object-fit: cover; object-position: top; transition: .3s; display: block; }
 .portfolio-info {
   opacity: 0; position: absolute; left: 12px; right: 12px; bottom: -100%; z-index: 3; transition: all ease-in-out .5s;
   background: color-mix(in srgb, var(--surface-color), transparent 10%); padding: 15px;

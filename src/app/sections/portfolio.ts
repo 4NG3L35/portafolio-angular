@@ -10,7 +10,7 @@ import { filters, works } from '../profile';
     <section id="portfolio" class="section light">
       <div class="container section-title" reveal>
         <h2>Portafolio</h2>
-        <p>Algunos proyectos en los que he trabajado y fotografías propias.</p>
+        <p>Algunos proyectos en los que he trabajado.</p>
       </div>
       <div class="container">
         <ul class="portfolio-filters" reveal="100">

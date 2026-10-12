@@ -30,7 +30,7 @@ import { profile } from '../profile';
               <li><i class="bi bi-chevron-right"></i><strong>Freelance:</strong><span>{{ profile.freelance ? 'Disponible' : 'No disponible' }}</span></li>
             </ul>
           </div>
-          <p>Me gusta aprender haciendo: desde dar soporte técnico hasta desarrollar sistemas web, móviles y de escritorio. Fuera del código disfruto la fotografía, sobre todo los planos generales y los detalles.</p>
+          <p>Me gusta aprender haciendo: desde dar soporte técnico hasta desarrollar sistemas web, móviles y de escritorio.</p>
         </div>
       </div>
     </section>
