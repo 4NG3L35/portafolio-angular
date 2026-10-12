@@ -1,0 +1,14 @@
+<app-sidebar [active]="active()" />
+<main>
+  <app-hero />
+  <app-about />
+  <app-skills />
+  <app-resume />
+  <app-portfolio />
+  <app-contact />
+</main>
+<footer class="footer">
+  <p>© {{ year }} <strong>{{ profile.name }}</strong> · Todos los derechos reservados</p>
+  <p class="credits">Hecho con Angular 22 · Inspirado en la plantilla iPortfolio de BootstrapMade</p>
+</footer>
+<button class="scroll-top" [class.active]="scrolled()" (click)="toTop()" aria-label="Volver arriba"><i class="bi bi-arrow-up-short"></i></button>
