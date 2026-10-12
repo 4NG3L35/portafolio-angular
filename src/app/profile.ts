@@ -58,16 +58,10 @@ export const filters = [
   { key: '*', label: 'Todos' },
   { key: 'app', label: 'App' },
   { key: 'web', label: 'Web' },
-  { key: 'datos', label: 'Datos' },
-  { key: 'redes', label: 'Redes' },
 ];
 
 export const works = [
   { title: 'SIGEBRI', text: 'Sistema de monitoreo de brigadas contra el dengue (Proyecto Integrador).', image: 'img/sigebri.png', category: 'app' },
   { title: 'Cine Latino', text: 'Plataforma de cine latinoamericano hecha en Angular.', image: 'img/cine-latino.png', category: 'web' },
-  { title: 'Ola Azul – Inicio', text: 'Panel web en Angular para una escuela de natación.', image: 'img/ola-azul-inicio.png', category: 'web' },
-  { title: 'Ola Azul – Reportes', text: 'Ingresos y nadadores activos por horario.', image: 'img/ola-azul-reportes.png', category: 'web' },
-  { title: 'Precisión de YOLOv8', text: 'Comparación de cinco modelos de detección de objetos (Minería de Datos).', image: 'img/yolov8.png', category: 'datos' },
-  { title: 'Inter-VLAN con switch capa 3', text: 'Topología en Cisco Packet Tracer.', image: 'img/red-mls.png', category: 'redes' },
-  { title: 'Router-on-a-stick', text: 'Inter-VLAN con subinterfaces en Packet Tracer.', image: 'img/red-roas.png', category: 'redes' },
+  { title: 'Ola Azul', text: 'Panel web en Angular para una escuela de natación.', image: 'img/ola-azul-inicio.png', category: 'web' },
 ];

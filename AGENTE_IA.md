@@ -56,7 +56,7 @@ Analizar plantilla ──► Buscar contenido e imágenes ──► Diseñar com
 
 1. **Análisis de la plantilla.** Descargó el HTML y el CSS de iPortfolio para copiar la estructura (barra lateral fija, hero con efecto de escritura, sobre mí, habilidades, currículum, portafolio con filtros y contacto), la paleta (`#149ddd`, `#040b14`) y las fuentes (Raleway, Poppins, Roboto).
 2. **Búsqueda del contenido.** Encontró `mvc3`, el portafolio previo del estudiante, y de ahí tomó sus datos reales: nombre, edad, cumpleaños, teléfono, ciudad, biografía, roles, habilidades, formación y experiencia en soporte TI.
-3. **Búsqueda de imágenes.** Revisó las carpetas del estudiante con hojas de miniaturas, encontró su foto de la playa (fondo del inicio) y recortó su foto de perfil. La galería del portafolio solo muestra proyectos: el agente sacó capturas reales de Cine Latino, de la tabla de YOLOv8 y de un panel en Angular, y tomó el mockup de SIGEBRI y las topologías de Redes.
+3. **Búsqueda de imágenes.** Revisó las carpetas del estudiante con hojas de miniaturas, encontró su foto de la playa (fondo del inicio) y recortó su foto de perfil. La galería del portafolio solo muestra proyectos: el agente sacó capturas reales de Cine Latino y de un panel en Angular, y tomó el mockup de SIGEBRI.
 4. **Programación.** Un componente por sección, una directiva para las animaciones y un archivo de datos central.
 5. **Pruebas.** Compiló con `ng build`, levantó `ng serve` y comprobó con Chrome headless las seis secciones, el filtro de la galería, el visor de imágenes, el menú móvil y que ninguna imagen estuviera rota.
 6. **Correcciones.** Arregló un error de tipos en la directiva `reveal` (el atributo llegaba como texto) y el corte del correo electrónico en "Sobre mí".
@@ -80,7 +80,7 @@ portafolio-angular/
             ├── about.ts      ← sobre mí
             ├── skills.ts     ← barras de habilidades animadas
             ├── resume.ts     ← línea de tiempo de educación y experiencia
-            ├── portfolio.ts  ← filtros por categoría (App, Web, Datos, Redes) y visor de imágenes (lightbox)
+            ├── portfolio.ts  ← filtros por categoría (App, Web) y visor de imágenes (lightbox)
             └── contact.ts    ← datos de contacto, mapa y formulario
 ```
 
