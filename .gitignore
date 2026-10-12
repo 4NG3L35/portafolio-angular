@@ -42,3 +42,28 @@ __screenshots__/
 # System files
 .DS_Store
 Thumbs.db
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+id_rsa*
+id_ed25519*
+*.keystore
+secrets/
+credentials*.json
+service-account*.json
+firebase-adminsdk*.json
+
+# Logs and local files
+*.log
+.npmrc
+.angular/
+.vscode/mcp.json
+*.zip
+*.rar
